@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile name="leapfrog-creatrhs-fpe-rightextruder-200micron">
-  <printMaterial>ABS</printMaterial>
-  <printQuality>Medium</printQuality>
+  <printMaterial></printMaterial>
+  <printQuality></printQuality>
   <extruder name="Right Extruder">
     <toolheadNumber>0</toolheadNumber>
     <diameter>0.35</diameter>
@@ -89,7 +89,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="235"/>
+    <setpoint layer="1" temperature="210"/>
   </temperatureController>
   <temperatureController name="Left Extruder">
     <temperatureNumber>1</temperatureNumber>
